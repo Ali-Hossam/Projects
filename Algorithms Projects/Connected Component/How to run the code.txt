@@ -1,0 +1,22 @@
+**All files must be in the same folder in order for the algorithm to work properly**
+
+To test this algorithm you should have a txt file with an array that has a
+magnitude and a direction, where the float value stored in the array 
+represents the magnitude and its order in the array represents the direction, and
+every element of the array is stored in a separate line of the txt file.
+
+Then add the txt file to this python file directory, and run main function at
+the end of the python file.
+Main function takes 3 arguments:
+1. txt_name : The name of the txt file that has the polar points
+2. lidar_max_range_
+3. final_file_name : The name of the text file that will store the final symbolic image
+
+
+#The default run of the python file will return the answer of the task
+#You have to run the code using any code editor(VSCode for ex.) and use open folder 
+if in VSCode.
+
+Notes:
+The only take away about this algorithm is that using remove method in "connected component" function will increase the runtime as the algorithm will have to search all points in "points list" to find the right one to remove.
+
